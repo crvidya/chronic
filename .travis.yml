@@ -10,3 +10,7 @@ install:
     - python setup.py install
 script:
     - py.test tests/unit.py
+notifications:
+    email:
+        - vidyac.raghav@gmail.com
+        - vidya_test1@yahoo.in
